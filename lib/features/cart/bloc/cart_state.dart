@@ -13,7 +13,7 @@ class CartSuccessState extends CartState {
   CartSuccessState({required this.cartItems});
 }
 
-class CartRemoveItemState extends CartActionState{
+class CartRemoveItemState extends CartState{
   final ProductModel productModel;
   CartRemoveItemState({required this.productModel});
 }
